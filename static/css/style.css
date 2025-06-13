@@ -1,0 +1,30 @@
+body {
+  background: #f5f7fa;
+  font-family: "Pretendard", "맑은 고딕", sans-serif;
+}
+.container {
+  background: #fff;
+  border-radius: 18px;
+  padding: 40px 30px 40px 30px;
+  margin: 60px auto;
+  width: 400px;
+  box-shadow: 0 4px 20px 0 #ddd;
+  text-align: center;
+}
+h1 {
+  color: #2166d7;
+  margin-bottom: 30px;
+  font-size: 2.3rem;
+}
+ul#attendance-list {
+  margin: 25px 0 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.1rem;
+}
+ul#attendance-list li {
+  margin: 8px 0;
+}
+#log-box {
+  min-height: 22px;
+}
