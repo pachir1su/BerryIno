@@ -26,20 +26,21 @@
 
 ### 25/06/13/금 - 4차시
 - 아두이노와 Flask 연동
+  
   ![LCD](./img/LCD.png)
 
     - 사진 상으로는 LCD가 깨져 보이는데, 이후 출력물을 영어로 바꾸면서 해결.
 
 - 아두이노 4x4 매트릭스로 입력한 학번을 LCD에 띄우고, Flask 웹서버로 이동해 출석 여부를 출력함,
     
-    ![image.png](attachment:b318e797-0a95-41bd-ad25-23c2bae3b003:image.png)
+  ![Web](./img/웹서버.png)
     
 
 - 완 ~~ 성
     
-    ![image.png](attachment:1f87305e-79fd-4a79-b385-4a89e69ed299:image.png)
+  ![crack](./img/크랙.png)
     
 
 - 이후에 하드웨어를 숨길 외형을 디자인하여 제작했음.
     
-    ![IMG_0228.jpeg](attachment:8b837383-4718-45d2-b900-3f0018910fe5:IMG_0228.jpeg)
+  ![jihun](./img/#맞짱.png)
