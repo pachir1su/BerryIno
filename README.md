@@ -1,4 +1,4 @@
-# berryino
+# BerryIno
 
 ## 작업 일지
 
