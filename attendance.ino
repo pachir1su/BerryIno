@@ -3,7 +3,7 @@
 #include <Keypad.h>
 
 // LCD 주소
-LiquidCrystal_I2C lcd(0x20, 16, 2);
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // 키패드
 const byte ROWS = 4;
@@ -25,7 +25,7 @@ void setup() {
   lcd.init();
   lcd.backlight();
   lcd.setCursor(0,0);
-  lcd.print("학번 입력:");
+  lcd.print("Class Number:");
 }
 
 void loop() {
@@ -41,7 +41,7 @@ void loop() {
       if (input.length() > 0) {
         Serial.println(input);
         lcd.setCursor(0,1);
-        lcd.print("전송 완료!     ");
+        lcd.print("Enter!     ");
         delay(700);
         input = "";
         lcd.setCursor(0,1);
