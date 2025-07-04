@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const list = document.getElementById("attendance-list");
-  setInterval(async () => {
+
+  async function fetchAttendance() {
     const res = await fetch("/attendance");
     const students = await res.json();
     list.innerHTML = "";
@@ -14,6 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
         li.style.color = "#aaa";
       }
       list.appendChild(li);
+      // 콘솔에도 학번 출력
+      console.log(record.number, record.name, record.time || "(미출석)");
     });
-  }, 2000);
+  }
+
+  setInterval(fetchAttendance, 2000);
+  fetchAttendance(); // 최초 1회
 });
