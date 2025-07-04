@@ -23,7 +23,7 @@ def get_attendance():
 
 def serial_listen():
     try:
-        ser = serial.Serial('COM13', 9600)
+        ser = serial.Serial('/dev/ttyACM', 9600)
         while True:
             try:
                 line = ser.readline().decode().strip()
